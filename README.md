@@ -1,16 +1,53 @@
-# give_a_paw
+# 🐾 GiveAPaw
 
-A new Flutter project.
+A **dog donation app** built with Flutter that allows users to make quick, secure donations to support dogs in need. Perfect for animal lovers and anyone who wants to contribute with ease.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **Easy Donations** – Seamlessly donate using Razorpay integration  
+- **Secure Payments** – Real payments processed safely  
+- **User-friendly UI** – Clean, friendly interface with a cute dog theme      
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<p align="center">
+    <img src="./app_screenshots/home.png" alt="GiveAPaw Home Screen" width="20%"/>
+    <img src="./app_screenshots/enter-amount.png" alt="Donation Screen" width="20%"/>
+    <img src="./app_screenshots/choose-payment-option.png" alt="Success Screen" width="20%"/>
+    <img src="./app_screenshots/make-a-payment.png" alt="Success Screen" width="20%"/>
+    <img src="./app_screenshots/approve-payment.png" alt="Success Screen" width="20%"/>
+    <img src="./app_screenshots/processing.png" alt="Success Screen" width="20%"/>
+    <img src="./app_screenshots/payment-success.png" alt="Success Screen" width="20%"/>
+    <img src="./app_screenshots/back-to-home-screen.png" alt="Success Screen" width="20%"/>
+</p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧩 Dependencies
+
+This project uses the following Flutter packages:
+
+- [`razorpay_flutter`](https://pub.dev/packages/razorpay_flutter) — For integrating Razorpay payment gateway  
+- [`fluttertoast`](https://pub.dev/packages/fluttertoast) — To show toast messages for payment success/failure  
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/giveapaw.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd giveapaw
+```
+
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app:
+```bash
+flutter run
+```
