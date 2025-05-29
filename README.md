@@ -19,6 +19,7 @@ A **dog donation app** built with Flutter that allows users to make quick, secur
     <img src="./app_screenshots/processing.png" alt="Success Screen" width="20%"/>
     <img src="./app_screenshots/payment-success.png" alt="Success Screen" width="20%"/>
     <img src="./app_screenshots/back-to-home-screen.png" alt="Success Screen" width="20%"/>
+    <img src="./app_screenshots/dashboard-razorpay-com.png" alt="Razorpay Dashboard Screen" width="81%"/>
 </p>
 
 ## 🧩 Dependencies
@@ -27,6 +28,7 @@ This project uses the following Flutter packages:
 
 - [`razorpay_flutter`](https://pub.dev/packages/razorpay_flutter) — For integrating Razorpay payment gateway  
 - [`fluttertoast`](https://pub.dev/packages/fluttertoast) — To show toast messages for payment success/failure  
+- [`flutter_dotenv`](https://pub.dev/packages/flutter_dotenv) - To securely load environment variables (like API keys) from a .env file
 
 ## Installation
 
