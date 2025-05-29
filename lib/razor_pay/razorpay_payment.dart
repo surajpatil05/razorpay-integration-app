@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 import 'package:fluttertoast/fluttertoast.dart';
 
 import 'package:razorpay_flutter/razorpay_flutter.dart';
@@ -18,7 +20,8 @@ class _RazorpayPaymentScreenState extends State<RazorpayPaymentScreen> {
   void openCheckout(amount) async {
     amount *= 100;
     var options = <String, dynamic>{
-      'key': 'rzp_test_MpNXDtss5YdzPx',
+      'key':
+          dotenv.env['RAZORPAY_KEY_ID']!, // Replace with your Razorpay Key ID
       'amount': amount,
       'name': 'GiveAPaw',
       'prefill': {
