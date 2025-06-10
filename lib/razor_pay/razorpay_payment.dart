@@ -24,6 +24,8 @@ class _RazorpayPaymentScreenState extends State<RazorpayPaymentScreen> {
           dotenv.env['RAZORPAY_KEY_ID']!, // Replace with your Razorpay Key ID
       'amount': amount,
       'name': 'GiveAPaw',
+      'currency': 'INR',
+      'description': 'Donation for GiveAPaw',
       'prefill': {
         'contact': '1234567890',
         'email': 'testM@gmail.com',
