@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "lib/main.dart",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build/web"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
